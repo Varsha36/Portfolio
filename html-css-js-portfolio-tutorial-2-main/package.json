@@ -1,5 +1,0 @@
-{
-  "scripts": {
-    "build": "Portfolio build --output public"
-  }
-}
