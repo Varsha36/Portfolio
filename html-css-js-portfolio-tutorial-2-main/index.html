@@ -15,6 +15,7 @@
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#education">Education</a></li>
+          <li><a href="#certifications">Certifications</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -32,6 +33,7 @@
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a hreflang="certifications" onclick="toggleMenu()">Certifications</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -113,26 +115,15 @@
         </div>
       </div>
 
-
-
-      
-
-
-
-
-
-
       <section id="education">
         <p class="section__text__p1">Explore my</p>
         <h1 class="title">Academic Journey</h1>
-        <!-- <div class="section-container"> -->
-          <!-- <div class="section__pic-container">
-            <img
-              src="./assets/about.jpg"
-              alt="Profile picture"
-              class="about-pic"
-            /> -->
-          <!-- </div> -->
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#education'"
+      />
           <div class="about-details-container">
             <div class="about-containers">
               <div class="details-container">
@@ -169,8 +160,8 @@
 
 
 
-
-
+                
+   
 
       <img
         src="./assets/arrow.png"
@@ -179,6 +170,84 @@
         onclick="location.href='./#experience'"
       />
     </section>
+
+
+    <section id="certifications">
+      <p class="section__text__p1">View My</p>
+      <h1 class="title">Certifications</h1>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/Coursera.svg" alt="Certificate icon" class="icon" />
+            <h3>Prompt Engineering For ChatGPT</h3>
+            <p>Coursera,<br />2024</p>
+            <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.coursera.org/account/accomplishments/verify/5VG6BRV38LL5?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course'">
+                View
+              </button>
+          </div>
+          <div class="details-container">
+            <img src="./assets/Coursera.svg" alt="Certificate icon" class="icon" />
+            <h3>Google Data Analytics</h3>
+            <p>Coursera,<br />2023</p>
+            <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.coursera.org/account/accomplishments/professional-cert/SZAF6NADVBXV?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof'">
+                View
+              </button>
+          </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/edx.jpg" alt="Certificate icon" class="icon" />
+            <h3>Machine Learning with Python</h3>
+            <p>edX,<br />2024</p>
+            <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://courses.edx.org/certificates/7ef1d5a169ad4de0b2bab12e29d70e9f?_gl=1*fn59as*_gcl_au*NzUyMDc4NDUzLjE3MTQ0NzE4OTE.*_ga*MTgxMTU2MDMwOC4xNzE0NDcxODkx*_ga_D3KS4KMDT0*MTcxOTYzOTE1Mi4yLjEuMTcxOTYzOTE5NC4xOC4wLjA.'">
+                View
+              </button>
+          </div>
+          <div class="details-container">
+            <img src="./assets/NPTEL.png" alt="Certificate icon" class="icon" />
+            <h3>Cloud Computing</h3>
+            <p>NPTEL,<br />2023</p>
+            <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1YZ2mCJgBF9eog3Fa9_7WZ6fJPwMMxu41/view'">
+                View
+              </button>
+          </div>          
+        </div>
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/aws_cloud_foundations.png" alt="Certificate icon" class="icon" />
+            <h3>AWS Academy Cloud Foundations</h3>
+            <p> Amazon Web Services Training and Certification,<br />2023</p>
+            <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.credly.com/badges/ac900df1-937d-4af6-8696-8011b27a9a15/public_url'">
+                View
+              </button>
+          </div>
+              <!-- <div class="details-container">
+                <img src="./assets/Coursera.svg" alt="Certificate icon" class="icon" />
+                <h3>6</h3>
+                <p>Coursera,<br />2024</p>
+                <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href=''">
+                    View
+                  </button> -->
+              </div>
+    </section>
+
+
+
+
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
@@ -469,6 +538,8 @@
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
